@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ZairoX-737.github.io/static/css/main.dc363c77.css",
-    "main.js": "/ZairoX-737.github.io/static/js/main.02080abb.js",
-    "static/js/787.b1e02602.chunk.js": "/ZairoX-737.github.io/static/js/787.b1e02602.chunk.js",
-    "index.html": "/ZairoX-737.github.io/index.html",
-    "main.dc363c77.css.map": "/ZairoX-737.github.io/static/css/main.dc363c77.css.map",
-    "main.02080abb.js.map": "/ZairoX-737.github.io/static/js/main.02080abb.js.map",
-    "787.b1e02602.chunk.js.map": "/ZairoX-737.github.io/static/js/787.b1e02602.chunk.js.map"
+    "main.css": "/static/css/main.dc363c77.css",
+    "main.js": "/static/js/main.15715b31.js",
+    "static/js/787.b1e02602.chunk.js": "/static/js/787.b1e02602.chunk.js",
+    "index.html": "/index.html",
+    "main.dc363c77.css.map": "/static/css/main.dc363c77.css.map",
+    "main.15715b31.js.map": "/static/js/main.15715b31.js.map",
+    "787.b1e02602.chunk.js.map": "/static/js/787.b1e02602.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc363c77.css",
-    "static/js/main.02080abb.js"
+    "static/js/main.15715b31.js"
   ]
 }
