@@ -350,9 +350,13 @@ body{
     cursor: pointer;
     transform: scale(1.02);
   }
-  & div:last-child{
-    display: flex;
-  }
+}
+
+.task_sets{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80px;
 }
 
 .task_title{

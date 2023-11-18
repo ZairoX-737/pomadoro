@@ -69,32 +69,37 @@ const List = (props) => {
       {tasks.map((task) => {
         return (
           <>
-            
-              <div className="task_item" id={uniqid()}>
-                <div key={task.id} className="task_main">
-                  <div className="task_title">
-                    <img src={check} alt="" />
-                    <span>{task.title}</span>
-                  </div>
+            <div className="task_item" id={uniqid()}>
+              <div key={task.id} className="task_main">
+                <div className="task_title">
+                  <img src={check} alt="" />
+                  <span>{task.title}</span>
+                </div>
+                <div className="task_sets">
                   <div>
                     {task.actpomos}/{task.pomos}
-                    <button
-                      className="task_settings"
-                      onClick={() => ClickToVisible(task.id)}
-                    >
-                      <img src={menu} alt=""></img>
-                    </button>
                   </div>
+                  <button
+                    className="task_settings"
+                    onClick={() => ClickToVisible(task.id)}
+                  >
+                    <img src={menu} alt=""></img>
+                  </button>
                 </div>
-
-                {task.note === "" ? (
-                  <div></div>
-                ) : (
-                  <div className="task_note">{task.note}</div>
-                )}
               </div>
-            
-            <div className="task_change" id={task.id} style={{display: 'none'}}>
+
+              {task.note === "" ? (
+                <div></div>
+              ) : (
+                <div className="task_note">{task.note}</div>
+              )}
+            </div>
+
+            <div
+              className="task_change"
+              id={task.id}
+              style={{ display: "none" }}
+            >
               <form
                 className="form change-form"
                 spellCheck="false"
@@ -146,10 +151,7 @@ const List = (props) => {
                   onChange={handleChange}
                 />
                 <div className="form_foot change-form-foot">
-                  <button 
-                  type="reset" 
-                  onClick={handleClickFormDelete}
-                  >
+                  <button type="reset" onClick={handleClickFormDelete}>
                     Delete
                   </button>
                   <div>
