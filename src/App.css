@@ -199,6 +199,8 @@ body{
   }
 }
 
+
+
 .form{
   margin-top: 20px;
   display: flex;
@@ -216,6 +218,18 @@ body{
     font-weight: bold;
   }
 }
+.task_change{
+  width: 480px;
+  height: 360px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.change-form{
+  height: 360px;
+}
+
 .form_text{
   height: 80px;
   font-size: 22px;
@@ -299,6 +313,21 @@ body{
   }
 }
 
+.change-form-foot{
+  justify-content: space-between;
+  padding-left: 10px;
+  & button{
+    width: 70px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(136, 136, 136);
+  }
+}
 .task_main{
   display: flex;
   justify-content: space-between;
@@ -497,4 +526,8 @@ body{
 .close:focus {
   color:#ba4949;
   cursor: pointer;
+}
+
+.pomos input{
+  margin-right: 15px;
 }

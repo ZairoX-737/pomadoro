@@ -20,7 +20,6 @@ const FormAddNewTask = (props) => {
     if (values.title) {
       addNewTask(values.title, values.note, values.pomos);
     }
-    console.log(values)
     handleClickBacklog();
   };
 
@@ -48,7 +47,7 @@ const FormAddNewTask = (props) => {
           id="taskPomos"
           name="pomos"
           type="number"
-          min="0"
+          min="1"
           value={values.pomos}
           placeholder="Pomos.."
           onChange={handleChange}

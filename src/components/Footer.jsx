@@ -18,6 +18,7 @@ const Footer = props =>{
           title: title,
           note: note,
           pomos: pomos,
+          actpomos: "0",
         };
         setTasks([...tasks, newTask])
     }
@@ -26,7 +27,6 @@ const Footer = props =>{
       setFormVisible(!isFormVisible);
       setSelectVisible(!isSelectVisible);
     };
-    console.log(tasks);
     return (
       <>
         <div className="footer">

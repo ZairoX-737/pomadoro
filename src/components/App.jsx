@@ -9,11 +9,11 @@ function App() {
   const [tasks, setTasks] = useState([])
 
   return (
-    <section className="wrapper">
-      <Header />
-      <TimerBox />
-      <Footer tasks={tasks} setTasks={setTasks}/>
-    </section>
+      <section className="wrapper">
+        <Header />
+        <TimerBox />
+        <Footer tasks={tasks} setTasks={setTasks} />
+      </section>
   );
 }
 
